@@ -26,7 +26,7 @@ const storage = multer.diskStorage({
 // middlewares
 app.use(
   cors({
-    origin: ["http://localhost:5173/"],
+    origin: ["https://lucent-stroopwafel-9e2be6.netlify.app/"],
     credentials: true,
   })
 );
